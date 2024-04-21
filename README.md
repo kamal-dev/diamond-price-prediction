@@ -1,11 +1,13 @@
-# Create the Virtual Environment:
+# Project: Diamond Price Prediction
+
+## Create the Virtual Environment:
     1. conda create -p venv python==3.9
     2. conda activate venv/
 
-# Setup the project:
+## Setup the project:
     - python setup.py install
 
-# Directory Structure
+## Directory Structure
     |- artifacts            ''' All the pickle files will be stored in this directory '''
     |- notebooks            ''' We will write all the Jupyter notebook in notebook '''
         |- data             ''' All the files will be present in the data dir '''
